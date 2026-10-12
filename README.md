@@ -4,7 +4,7 @@ A Streamlit app that forecasts monthly demand for ~5,700 B2B SKUs with intermitt
 
 ## Run it
 
-Requires **Python 3.12+**.
+Requires **Python 3.12 to 3.14** (3.14 recommended). Python 3.15 does not work yet: Streamlit needs a pyarrow build that 3.15 doesn't have.
 
 **Windows:** double-click `run_dashboard.bat`. The first run creates `.venv` and installs the packages.
 
