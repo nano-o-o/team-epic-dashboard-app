@@ -1,6 +1,6 @@
 """
 Reusable experiment harness: loads the real MELFT data + item master the same
-way dashboard_app.build_everything does, and exposes a prepared `df`
+way ui.pipeline.build_everything does, and exposes a prepared `df`
 (fiscal-monthly, zero-filled, with Category1/Category2 and
 distinct_customers_trailing_12m) plus the train/validation year split.
 

@@ -96,7 +96,7 @@ Being specific in these ways saves a round-trip:
 - **Widget** — an interactive control: a `selectbox` (dropdown), `radio` (pill buttons), `checkbox`, `slider`, `multiselect`, `text_input`, `button`, `expander` (collapsible section).
 - **Card** — a bordered white box. KPI cards, table frames, and now the chart containers.
 - **Tooltip / `help=`** — the little "?" you hover for an explanation.
-- **Module** — one `.py` file. `dashboard_app.py` = the UI; `forecast_core.py` = the modelling; `inventory.py` = stocking maths; `classical.py` = ETS/SARIMA.
+- **Module** — one `.py` file. `dashboard_app.py` + `ui/` = the UI; `forecast_core.py` = the modelling; `inventory.py` = stocking maths; `classical.py` = ETS/SARIMA.
 - **Function signature** — a function's name + its arguments, e.g. `build_inventory_plan(forecast_df, col_product, lead_time_months=2.0, …)`.
 - **Refactor** — restructure code *without changing what it does* (e.g. "pull this into a helper").
 - **Regression** — something that used to work and now doesn't, caused by a recent change.

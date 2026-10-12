@@ -12,7 +12,7 @@ Writes:
                                  every engineered feature, leakage-safe
     features_dictionary.csv   -- what each column is + its leakage note
 
-IMPORTANT: this script and dashboard_app.py call the SAME functions in
+IMPORTANT: this script and the app (ui/pipeline.py) call the SAME functions in
 forecast_core.py -- there is one implementation of every feature, used both
 offline (here) and at runtime (the app). Nothing is re-derived by hand, so
 the two cannot drift apart.

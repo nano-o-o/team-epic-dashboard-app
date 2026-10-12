@@ -29,7 +29,7 @@ OUT = os.path.join(ROOT, "experiments", "_results")
 os.makedirs(OUT, exist_ok=True)
 pd.set_option("display.width", 200)
 
-# The app's PREFERRED_DEFAULTS (dashboard_app.py). run_backtest adds Baseline
+# The app's PREFERRED_DEFAULTS (ui/pages/build_forecast.py). run_backtest adds Baseline
 # and Croston columns of its own, which evaluate_backtest then scores too.
 MODELS = ["LightGBM (Tweedie)", "XGBoost (Tweedie)", "HistGradientBoosting"]
 SHIPPED = "LightGBM (Tweedie)"

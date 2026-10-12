@@ -27,27 +27,31 @@ import pandas as pd
 import streamlit as st
 from streamlit.testing.v1 import AppTest
 
+from forecast_core import clean_dates
+from ui import pipeline
+
 ROOT = pathlib.Path(__file__).resolve().parent
+APP = str(ROOT / "dashboard_app.py")
 PAGES = ["Overview", "Category Plan", "Product Detail", "Customer Detail", "Forecast Table", "Inventory Plan"]
 TABS = ["Business impact", "Model accuracy", "Diagnostics"]
-REAL_LOADER = '''def generate_fake_raw_data():
-    _r = pd.read_csv("data/cleaned_data.csv", low_memory=False)
-    _r.columns = _r.columns.str.strip()
-    return clean_dates(_r, "Sales Order Date")[0]
-
-'''
-ANCHOR = 'if "_redirect_to" in st.session_state:'
+DEMO_LOADER = pipeline.generate_fake_raw_data
 
 
-def app_copy(mode, tmp):
-    """The app itself for demo; for real, a copy whose demo loader reads cleaned_data.csv."""
-    src = (ROOT / "dashboard_app.py").read_text(encoding="utf-8")
-    if mode == "real":
-        assert src.count(ANCHOR) == 1, "anchor for the real-data loader not found"
-        src = src.replace(ANCHOR, REAL_LOADER + ANCHOR)
-    path = pathlib.Path(tmp) / f"_check_{mode}.py"
-    path.write_text(src, encoding="utf-8")
-    return str(path)
+def real_loader():
+    real_loader.calls += 1
+    r = pd.read_csv("data/cleaned_data.csv", low_memory=False)
+    r.columns = r.columns.str.strip()
+    return clean_dates(r, "Sales Order Date")[0]
+
+
+real_loader.calls = 0
+
+
+def use_data(mode):
+    """A build with no upload reads generate_fake_raw_data(); for real, point it at cleaned_data.csv.
+    AppTest runs the app in this process, so it sees the swapped function."""
+    pipeline.generate_fake_raw_data = real_loader if mode == "real" else DEMO_LOADER
+    return APP
 
 
 def assert_clean(at, where):
@@ -268,10 +272,12 @@ def main():
     out = {}
     with tempfile.TemporaryDirectory() as tmp:
         for mode in modes:
-            out[mode] = run_pages(app_copy(mode, tmp))
+            out[mode] = run_pages(use_data(mode))
+            # The swap only works while AppTest keeps ui.pipeline loaded; fail rather than label demo data "real".
+            assert mode != "real" or real_loader.calls, "the real-data build never read cleaned_data.csv"
             print(f"[ok] {mode}: {len(out[mode]['pages'])} pages/tabs, forecast total "
                   f"{out[mode]['res'][1]['Final_Forecast'].sum():,.0f}")
-        check_restore(app_copy("demo", tmp), tmp)
+        check_restore(use_data("demo"), tmp)
         print("[ok] saved build restored in a new session")
     if args.save:
         pickle.dump(out, open(args.save, "wb"))

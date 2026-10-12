@@ -3,7 +3,7 @@
  forecast_core.py -- fiscal-year-aware, sparsity-featured forecasting logic
 =============================================================================
 Pure pandas/numpy/sklearn logic, no Streamlit dependency, so it can be
-tested standalone and imported by dashboard_app.py.
+tested standalone and imported by the app (ui/pipeline.py).
 =============================================================================
 """
 

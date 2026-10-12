@@ -36,7 +36,8 @@ MELFT's data is included in `data/`. To build the forecast on it, go to **Build 
 
 | File | Role |
 |---|---|
-| `dashboard_app.py` | The Streamlit dashboard: every page, chart and download. Holds no modelling logic itself; it calls the three modules below. |
+| `dashboard_app.py` | Starts the Streamlit dashboard: the sidebar, the shared page header and the page switch. |
+| `ui/` | The dashboard itself: one file per page in `ui/pages/`, plus shared settings, styles, chart helpers and the cached build (`ui/pipeline.py`). `ui/__init__.py` lists what each file holds. No modelling logic; it calls the three modules below. |
 | `forecast_core.py` | The forecasting engine: fiscal calendar (April–March), monthly aggregation, features (built from past months only, so no leakage), models (LightGBM, XGBoost, hurdle model, baselines), backtests and accuracy metrics (WAPE, MASE, bias). |
 | `inventory.py` | Turns the forecast into a stocking plan: safety stock from lead time, review period and each item's own forecast error; obsolescence flags; and a replay of past years to compare fill rate at the same stock budget. |
 | `classical.py` | ETS and SARIMA forecasts at total and category level, used as a cross-check for the machine-learning model. |
