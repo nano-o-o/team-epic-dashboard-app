@@ -137,8 +137,10 @@ def render(
                       if eval_report is not None and model_name in eval_report["by_grain"].columns else None)
             # The planning grain beside the hardest one: the same forecast, scored per
             # category per month and per item per month. Category 1 when there is one.
+            # A grain with no score (sample data has no categories) is skipped, never shown as nan%.
             _cat_rows = [] if _grain is None else [g for g in _grain.index
-                                                   if g.endswith(" x month") and g != "SKU-month"]
+                                                   if g.endswith(" x month") and g != "SKU-month"
+                                                   and pd.notna(_grain[g])]
             _cat_row = next((g for g in _cat_rows if g.startswith("Category1")), _cat_rows[0] if _cat_rows else None)
             _zero_share = float((res_df["Actual"] == 0).mean()) if res_df is not None and len(res_df) else None
             _k1, _k2 = st.columns(2)
