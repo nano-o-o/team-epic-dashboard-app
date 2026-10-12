@@ -1,0 +1,89 @@
+18:16:05 FY2024: backtesting 3 models on train [2021, 2022, 2023] ...
+
+===== FY2024 -- WAPE by grain, 1 month ahead (lower is better) =====
+                   Baseline  Croston (SBA)  LightGBM (Tweedie)  XGBoost (Tweedie)  HistGradientBoosting
+SKU-month             120.9          102.7                71.8               72.7                  86.6
+Category1 x month      67.6           42.6                27.9               28.4                  32.6
+Category2 x month      76.9           53.6                36.2               36.5                  44.0
+SKU x quarter         108.1           85.7                53.7               54.1                  65.5
+Total (volume)         15.5           22.3                12.3               11.1                   3.1
+
+winner per grain:
+   SKU-month              LightGBM (Tweedie)       71.8%   (shipped LightGBM (Tweedie) 71.8%)
+   Category1 x month      LightGBM (Tweedie)       27.9%   (shipped LightGBM (Tweedie) 27.9%)
+   Category2 x month      LightGBM (Tweedie)       36.2%   (shipped LightGBM (Tweedie) 36.2%)
+   SKU x quarter          LightGBM (Tweedie)       53.7%   (shipped LightGBM (Tweedie) 53.7%)
+   Total (volume)         HistGradientBoosting     3.1%   (shipped LightGBM (Tweedie) 12.3%)
+
+--- FY2024 headline metrics, SKU-month ---
+                       WAPE  Bias  MASE
+Baseline              120.9 -15.5  97.3
+Croston (SBA)         102.7  22.3  82.6
+LightGBM (Tweedie)     71.8 -12.3  57.8
+XGBoost (Tweedie)      72.7 -11.1  58.5
+HistGradientBoosting   86.6  -3.1  69.7
+18:16:19 FY2023: backtesting 3 models on train [2021, 2022] ...
+
+===== FY2023 -- WAPE by grain, 1 month ahead (lower is better) =====
+                   Baseline  Croston (SBA)  LightGBM (Tweedie)  XGBoost (Tweedie)  HistGradientBoosting
+SKU-month             203.4          155.4               102.4              105.1                 115.9
+Category1 x month     142.5          103.9                54.9               55.6                  60.3
+Category2 x month     148.3          108.4                61.8               62.8                  69.0
+SKU x quarter         181.3          136.6                81.5               84.5                  91.7
+Total (volume)        130.3           98.0                36.7               38.5                  47.9
+
+winner per grain:
+   SKU-month              LightGBM (Tweedie)       102.4%   (shipped LightGBM (Tweedie) 102.4%)
+   Category1 x month      LightGBM (Tweedie)       54.9%   (shipped LightGBM (Tweedie) 54.9%)
+   Category2 x month      LightGBM (Tweedie)       61.8%   (shipped LightGBM (Tweedie) 61.8%)
+   SKU x quarter          LightGBM (Tweedie)       81.5%   (shipped LightGBM (Tweedie) 81.5%)
+   Total (volume)         LightGBM (Tweedie)       36.7%   (shipped LightGBM (Tweedie) 36.7%)
+
+--- FY2023 headline metrics, SKU-month ---
+                       WAPE   Bias   MASE
+Baseline              203.4  130.3  108.2
+Croston (SBA)         155.4   98.0   82.7
+LightGBM (Tweedie)    102.4   36.7   54.4
+XGBoost (Tweedie)     105.1   38.5   55.9
+HistGradientBoosting  115.9   47.9   61.6
+
+
+===== Does the per-grain winner hold at both origin years? =====
+   SKU-month              FY2024 -> LightGBM (Tweedie)       FY2023 -> LightGBM (Tweedie)       same
+   Category1 x month      FY2024 -> LightGBM (Tweedie)       FY2023 -> LightGBM (Tweedie)       same
+   Category2 x month      FY2024 -> LightGBM (Tweedie)       FY2023 -> LightGBM (Tweedie)       same
+   SKU x quarter          FY2024 -> LightGBM (Tweedie)       FY2023 -> LightGBM (Tweedie)       same
+   Total (volume)         FY2024 -> HistGradientBoosting     FY2023 -> LightGBM (Tweedie)       *** FLIPS ***
+18:16:30 FY2024: backtesting 3 models on train [2021, 2022, 2023] ...
+18:16:45 FY2024: 12-month-ahead forecast, LightGBM (Tweedie) ...
+18:16:54 FY2024: 12-month-ahead forecast, XGBoost (Tweedie) ...
+18:17:06 FY2024: 12-month-ahead forecast, HistGradientBoosting ...
+
+===== FY2024 -- WAPE by grain, 12 months ahead (lower is better) =====
+                   LightGBM (Tweedie)  XGBoost (Tweedie)  HistGradientBoosting
+SKU-month                        73.4               74.3                  86.2
+Category1 x month                29.0               29.2                  33.9
+Category2 x month                37.7               38.2                  44.9
+SKU x quarter                    59.0               59.5                  71.2
+Total (volume)                   12.9                9.5                  11.0
+
+winner per grain:
+   SKU-month              LightGBM (Tweedie)       73.4%   (shipped LightGBM (Tweedie) 73.4%)
+   Category1 x month      LightGBM (Tweedie)       29.0%   (shipped LightGBM (Tweedie) 29.0%)
+   Category2 x month      LightGBM (Tweedie)       37.7%   (shipped LightGBM (Tweedie) 37.7%)
+   SKU x quarter          LightGBM (Tweedie)       59.0%   (shipped LightGBM (Tweedie) 59.0%)
+   Total (volume)         XGBoost (Tweedie)        9.5%   (shipped LightGBM (Tweedie) 12.9%)
+
+--- FY2024 headline metrics 12 months ahead, SKU-month ---
+                      WAPE  Bias  MASE
+LightGBM (Tweedie)    73.4 -12.9  59.1
+XGBoost (Tweedie)     74.3  -9.5  59.7
+HistGradientBoosting  86.2 -11.0  69.4
+
+--- FY2024 total forecast units vs actual (the level each model lands on) ---
+   LightGBM (Tweedie)            163,008
+   XGBoost (Tweedie)             169,415
+   HistGradientBoosting          166,672
+   ACTUAL                        187,173
+
+wrote C:\Users\wasin\Downloads\SOE project\experiments\_results\05_per_grain_models.csv

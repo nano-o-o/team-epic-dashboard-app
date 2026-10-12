@@ -1,0 +1,20 @@
+00:01:10 (a) default: FY2024 71.8% bias -12.3% | FY2023 102.4% bias 36.7%
+00:01:22 (a) tweedie_variance_power=1.1: FY2024 73.1% bias -10.8% | FY2023 103.9% bias 37.4%
+00:01:36 (a) tweedie_variance_power=1.5: FY2024 70.8% bias -13.8% | FY2023 101.1% bias 35.7%
+00:01:48 (a) tweedie_variance_power=1.7: FY2024 69.8% bias -16.1% | FY2023 97.8% bias 31.7%
+00:02:00 (a) min_child_samples=20: FY2024 71.7% bias -11.7% | FY2023 102.6% bias 37.2%
+00:02:12 (a) min_child_samples=50: FY2024 71.8% bias -11.5% | FY2023 102.9% bias 37.3%
+00:02:25 (a) num_leaves=15: FY2024 72.4% bias -11.8% | FY2023 103.7% bias 38.4%
+00:02:39 (a) num_leaves=63: FY2024 71.7% bias -13.4% | FY2023 100.9% bias 33.7%
+00:02:50 (a) n_estimators=150: FY2024 72.2% bias -11.9% | FY2023 102.8% bias 37.9%
+00:03:03 (a) n_estimators=600: FY2024 71.7% bias -13.2% | FY2023 101.4% bias 34.4%
+00:03:16 (a) learning_rate=0.02, n_estimators=750: FY2024 71.6% bias -12.3% | FY2023 102.3% bias 36.9%
+00:03:27 (a) subsample=0.8, subsample_freq=1, colsample_bytree=0.8: FY2024 71.2% bias -12.5% | FY2023 101.2% bias 34.6%
+00:03:37 (a) reg_lambda=5.0: FY2024 71.7% bias -12.2% | FY2023 102.8% bias 37.0%
+00:03:38 (b) default: 95% plan 83.0% on ฿1.32bn
+00:03:55 (b) tweedie_variance_power=1.5: WAPE 71.9% bias -16.7% | 95% plan 82.3% on ฿1.27bn | at ฿1.32bn: 82.6%
+00:04:11 (b) tweedie_variance_power=1.7: WAPE 71.5% bias -19.2% | 95% plan 81.3% on ฿1.23bn | at ฿1.32bn: 82.1%
+00:04:29 (b) subsample=0.8, subsample_freq=1, colsample_bytree=0.8: WAPE 73.3% bias -11.2% | 95% plan 83.0% on ฿1.31bn | at ฿1.32bn: 83.0%
+00:04:46 (c) > 0 (shipped): FY2024 73.4% | FY2023 127.1%
+00:05:02 (c) >= 0.5: FY2024 73.8% | FY2023 127.8%
+00:05:18 (c) >= 1.0: FY2024 73.9% | FY2023 128.4%

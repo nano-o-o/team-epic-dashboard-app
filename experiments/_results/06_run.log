@@ -1,0 +1,16 @@
+18:17:19 FY2024: 4,465 of 5,693 items are slow movers; median variance/mean = 2.4 (Poisson = 1); 71% of selling items have variance > 1.5x mean
+
+=== FY2024: fill rate at the same stock budget ===
+                                 today's 1.5-month rule (฿782M) app's 95% plan (฿1.32bn) budget range swept    at 95% setting
+Baseline (normal)                                         76.3%                    83.0%      ฿513M-฿1.82bn  83.0% on ฿1.32bn
+Poisson                                                   73.4%                      NaN      ฿499M-฿1.07bn    73.9% on ฿830M
+Hybrid (Poisson for slow movers)                          76.6%                    83.0%      ฿502M-฿1.76bn  82.6% on ฿1.26bn
+Negative binomial                                         75.5%                    81.1%      ฿436M-฿2.49bn  81.5% on ฿1.39bn
+18:17:22 FY2023: 4,379 of 5,693 items are slow movers; median variance/mean = 2.4 (Poisson = 1); 69% of selling items have variance > 1.5x mean
+
+=== FY2023: fill rate at the same stock budget ===
+                                 today's 1.5-month rule (฿1.55bn) app's 95% plan (฿2.24bn) budget range swept    at 95% setting
+Baseline (normal)                                           87.3%                    90.3%    ฿1.08bn-฿2.92bn  90.3% on ฿2.24bn
+Poisson                                                     85.8%                      NaN    ฿1.07bn-฿1.73bn  85.3% on ฿1.46bn
+Hybrid (Poisson for slow movers)                            86.1%                    88.6%    ฿1.08bn-฿2.73bn  88.3% on ฿2.10bn
+Negative binomial                                           85.5%                    88.2%      ฿981M-฿3.79bn  88.4% on ฿2.30bn

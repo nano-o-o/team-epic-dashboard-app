@@ -1,0 +1,19 @@
+# data + build outputs (large, not versioned)
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+*.pptx
+*.pdf
+.venv/
+.streamlit/last_build.pkl
+__pycache__/
+.playwright-mcp/
+node_modules/
+presentation/screens/
+results/
+.ipynb_checkpoints/
+docs/study_guide/
+!data/*.csv
+!data/*.xlsx
+!data/*.parquet

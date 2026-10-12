@@ -1,0 +1,31 @@
+18:15:27 pair-months: 174,200; pairs: 50,919
+18:15:29   origin 24: training on 138,424 pair rows, 39,851 item rows
+18:15:33   FY2023 Baseline (app, 12 months ahead): WAPE 127.1%, item-year 98.4%, fill @ budget 90.3%
+18:15:33   FY2023 Pair model, flat months: WAPE 180.3%, item-year 154.0%, fill @ budget --
+18:15:34   FY2023 Pair model, app's monthly shape: WAPE 181.5%, item-year 154.0%, fill @ budget --
+18:15:34   FY2023 Pair model without new-buyer part, flat: WAPE 143.3%, item-year 116.0%, fill @ budget 89.8%
+18:15:35   FY2023 50/50 blend of pair model and app: WAPE 153.4%, item-year 124.6%, fill @ budget 90.4%
+18:15:39   origin 36: training on 514,208 pair rows, 108,167 item rows
+18:15:46   FY2024 Baseline (app, 12 months ahead): WAPE 73.4%, item-year 46.3%, fill @ budget 83.0%
+18:15:47   FY2024 Pair model, flat months: WAPE 76.2%, item-year 54.2%, fill @ budget 79.9%
+18:15:47   FY2024 Pair model, app's monthly shape: WAPE 77.1%, item-year 54.2%, fill @ budget 79.9%
+18:15:48   FY2024 Pair model without new-buyer part, flat: WAPE 71.7%, item-year 54.3%, fill @ budget --
+18:15:49   FY2024 50/50 blend of pair model and app: WAPE 74.0%, item-year 47.6%, fill @ budget 81.8%
+
+=== FY2024 ===
+                                        WAPE item-month   Bias WAPE Cat1-month WAPE item-quarter WAPE item-year WAPE Sparse WAPE Dense Total units Fill @ baseline budget 95% plan fill 95% plan budget
+Variant                                                                                                                                                                                                
+Baseline (app, 12 months ahead)                   73.4% -12.9%           29.0%             59.0%          46.3%      121.1%      58.7%     163,008                  83.0%         83.0%         ฿1.32bn
+Pair model, flat months                           76.2% -25.8%           32.3%             63.5%          54.2%      155.7%      56.8%     138,882                  79.9%         78.7%         ฿1.22bn
+Pair model, app's monthly shape                   77.1% -25.8%           34.6%             64.6%          54.2%      156.0%      57.9%     138,882                  79.9%         78.7%         ฿1.22bn
+Pair model without new-buyer part, flat           71.7% -38.6%           40.6%             61.3%          54.3%      124.5%      57.5%     114,894                    NaN         76.0%           ฿971M
+50/50 blend of pair model and app                 74.0% -19.4%           30.7%             60.3%          47.6%      138.4%      56.8%     150,945                  81.8%         80.8%         ฿1.21bn
+
+=== FY2023 ===
+                                        WAPE item-month   Bias WAPE Cat1-month WAPE item-quarter WAPE item-year WAPE Sparse WAPE Dense Total units Fill @ baseline budget 95% plan fill 95% plan budget
+Variant                                                                                                                                                                                                
+Baseline (app, 12 months ahead)                  127.1%  69.5%           86.0%            111.5%          98.4%      127.0%     123.5%     255,623                  90.3%         90.3%         ฿2.24bn
+Pair model, flat months                          180.3% 134.2%          146.5%            164.9%         154.0%      223.9%     169.0%     353,086                    NaN         92.0%         ฿3.05bn
+Pair model, app's monthly shape                  181.5% 134.2%          146.0%            166.2%         154.0%      224.7%     170.3%     353,086                    NaN         92.0%         ฿3.05bn
+Pair model without new-buyer part, flat          143.3%  87.9%          102.4%            127.2%         116.0%      154.4%     140.2%     283,398                  89.8%         90.3%         ฿2.44bn
+50/50 blend of pair model and app                153.4% 101.8%          115.0%            137.8%         124.6%      175.5%     146.0%     304,354                  90.4%         91.3%         ฿2.64bn

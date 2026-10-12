@@ -1,0 +1,66 @@
+18:12:33 FY2024: baseline 95% budget ฿1.32bn
+18:12:35   FY2024 Baseline (app, 12 months ahead): done
+18:12:35   FY2024 Perfect total plan: done
+18:12:36   FY2024 Perfect Category1 plan: done
+18:12:37   FY2024 Naive plan (Category1 = last year): done
+18:12:38   FY2024 Naive plan (total = last year): done
+18:12:38   FY2024 Visible first 1 month(s), rest re-levelled: done
+18:12:39   FY2024 Visible first 1 month(s), rest unchanged: done
+18:12:40   FY2024 Visible first 2 month(s), rest re-levelled: done
+18:12:40   FY2024 Visible first 2 month(s), rest unchanged: done
+18:12:41   FY2024 Visible first 3 month(s), rest re-levelled: done
+18:12:41   FY2024 Visible first 3 month(s), rest unchanged: done
+18:13:01   FY2024 noisy plan ±10%: done
+18:13:23   FY2024 noisy plan ±20%: done
+18:13:44   FY2024 noisy plan ±30%: done
+18:13:44 FY2023: baseline 95% budget ฿2.24bn
+18:13:47   FY2023 Baseline (app, 12 months ahead): done
+18:13:48   FY2023 Perfect total plan: done
+18:13:49   FY2023 Perfect Category1 plan: done
+18:13:49   FY2023 Naive plan (Category1 = last year): done
+18:13:50   FY2023 Naive plan (total = last year): done
+18:13:51   FY2023 Visible first 1 month(s), rest re-levelled: done
+18:13:51   FY2023 Visible first 1 month(s), rest unchanged: done
+18:13:52   FY2023 Visible first 2 month(s), rest re-levelled: done
+18:13:53   FY2023 Visible first 2 month(s), rest unchanged: done
+18:13:53   FY2023 Visible first 3 month(s), rest re-levelled: done
+18:13:54   FY2023 Visible first 3 month(s), rest unchanged: done
+18:14:14   FY2023 noisy plan ±10%: done
+18:14:34   FY2023 noisy plan ±20%: done
+18:14:53   FY2023 noisy plan ±30%: done
+
+=== FY2024 ===
+                                           WAPE item-month   Bias WAPE Cat1-month WAPE item-month, months 4-12 Bias, months 4-12 WAPE Cat1-month, months 4-12 WAPE item-quarter WAPE item-year WAPE Sparse WAPE Dense Fill @ baseline budget 95% plan fill 95% plan budget
+Variant                                                                                                                                                                                                                                                                   
+Baseline (app, 12 months ahead)                      73.4% -12.9%           29.0%                        74.6%            -14.4%                        32.6%             59.0%          46.3%      121.1%      58.7%                  83.0%         83.0%         ฿1.32bn
+Perfect total plan                                   77.9%   0.0%           30.7%                        79.3%             -1.7%                        34.8%             63.0%          49.7%      124.3%      62.9%                  83.1%         84.1%         ฿1.47bn
+Perfect Category1 plan                               81.9%   0.0%           32.2%                        82.3%             -2.5%                        34.1%             67.1%          53.8%      155.8%      61.6%                  82.4%         83.5%         ฿1.47bn
+Naive plan (Category1 = last year)                   76.0% -19.4%           33.9%                        76.2%            -21.5%                        34.6%             62.9%          51.5%      145.4%      57.1%                  81.9%         81.4%         ฿1.26bn
+Naive plan (total = last year)                       71.9% -19.4%           30.1%                        73.0%            -20.8%                        33.1%             58.1%          46.0%      119.5%      57.4%                  82.8%         82.2%         ฿1.24bn
+Visible first 1 month(s), rest re-levelled           76.9%   5.7%           37.1%                        83.1%              3.8%                        41.9%             64.0%          51.7%      117.5%      63.7%                  83.6%         84.8%         ฿1.53bn
+Visible first 1 month(s), rest unchanged             68.8% -11.8%           27.7%                        74.6%            -14.4%                        32.6%             56.4%          44.1%      115.6%      54.8%                  83.5%         83.6%         ฿1.33bn
+Visible first 2 month(s), rest re-levelled           67.6%  -0.1%           31.2%                        79.4%             -1.8%                        37.1%             56.4%          45.1%      110.9%      54.6%                  84.1%         84.9%         ฿1.46bn
+Visible first 2 month(s), rest unchanged             63.5% -11.1%           26.6%                        74.6%            -14.4%                        32.6%             52.8%          41.7%      110.1%      50.0%                  84.0%         84.1%         ฿1.33bn
+Visible first 3 month(s), rest re-levelled           60.6%  -5.8%           27.0%                        77.0%             -7.4%                        34.4%             49.6%          40.7%      105.3%      47.8%                  84.5%         84.9%         ฿1.40bn
+Visible first 3 month(s), rest unchanged             58.7% -11.3%           25.7%                        74.6%            -14.4%                        32.6%             48.0%          39.3%      104.8%      45.7%                  84.5%         84.5%         ฿1.32bn
+Category1 plan, off by ±10% (avg of 30)              82.3%   0.6%           33.6%                        82.7%             -1.8%                        35.4%             67.6%          54.4%      154.8%      62.2%                  82.3%         83.5%         ฿1.48bn
+Category1 plan, off by ±20% (avg of 30)              82.9%  -4.3%           38.0%                        83.2%             -6.7%                        39.0%             69.3%          57.1%      156.9%      62.8%                  81.8%         82.5%         ฿1.43bn
+Category1 plan, off by ±30% (avg of 30)              86.5%   1.8%           42.9%                        86.7%             -0.7%                        43.6%             73.1%          61.3%      157.2%      66.9%                  81.7%         82.8%         ฿1.48bn
+
+=== FY2023 ===
+                                           WAPE item-month   Bias WAPE Cat1-month WAPE item-month, months 4-12 Bias, months 4-12 WAPE Cat1-month, months 4-12 WAPE item-quarter WAPE item-year WAPE Sparse WAPE Dense Fill @ baseline budget 95% plan fill 95% plan budget
+Variant                                                                                                                                                                                                                                                                   
+Baseline (app, 12 months ahead)                     127.1%  69.5%           86.0%                       116.2%             55.1%                        75.0%            111.5%          98.4%      127.0%     123.5%                  90.3%         90.3%         ฿2.24bn
+Perfect total plan                                   82.3%   0.0%           34.8%                        78.6%             -8.5%                        32.1%             65.0%          50.5%      115.8%      72.2%                    NaN         88.4%         ฿1.58bn
+Perfect Category1 plan                               84.7%   0.0%           32.5%                        80.9%             -8.7%                        30.6%             66.0%          50.3%      149.6%      67.6%                    NaN         88.6%         ฿1.64bn
+Naive plan (Category1 = last year)                  130.1%  74.0%           86.1%                       118.5%             58.9%                        73.6%            114.0%         100.3%      151.1%     121.8%                  90.4%         90.6%         ฿2.29bn
+Naive plan (total = last year)                      130.6%  74.0%           90.0%                       119.3%             59.2%                        78.5%            115.2%         102.3%      127.7%     127.6%                  90.3%         90.4%         ฿2.28bn
+Visible first 1 month(s), rest re-levelled           72.4% -15.5%           28.5%                        75.1%            -20.2%                        32.0%             57.6%          44.7%      112.5%      61.3%                    NaN         88.0%         ฿1.49bn
+Visible first 1 month(s), rest unchanged            116.6%  60.5%           76.8%                       116.2%             55.1%                        75.0%            102.7%          90.0%      120.7%     112.7%                  90.4%         90.3%         ฿2.16bn
+Visible first 2 month(s), rest re-levelled           66.1% -15.3%           26.4%                        74.9%            -19.9%                        31.6%             53.0%          41.4%      106.1%      55.8%                    NaN         88.7%         ฿1.47bn
+Visible first 2 month(s), rest unchanged            104.9%  52.6%           68.7%                       116.2%             55.1%                        75.0%             92.8%          81.3%      114.3%     100.9%                  91.0%         90.6%         ฿2.09bn
+Visible first 3 month(s), rest re-levelled           60.2% -15.3%           25.1%                        75.3%            -19.1%                        31.4%             47.0%          38.6%      100.7%      50.2%                    NaN         89.3%         ฿1.47bn
+Visible first 3 month(s), rest unchanged             92.9%  44.1%           60.0%                       116.2%             55.1%                        75.0%             80.8%          72.2%      107.3%      88.2%                  91.3%         90.8%         ฿2.02bn
+Category1 plan, off by ±10% (avg of 30)              84.4%  -1.2%           33.2%                        80.7%             -9.8%                        31.4%             66.1%          50.5%      148.4%      67.6%                    NaN         88.5%         ฿1.62bn
+Category1 plan, off by ±20% (avg of 30)              86.1%  -1.3%           37.5%                        82.3%             -9.9%                        35.3%             68.4%          53.7%      149.9%      69.2%                  90.6%         88.4%         ฿1.63bn
+Category1 plan, off by ±30% (avg of 30)              89.6%   1.6%           41.8%                        85.3%             -7.2%                        38.8%             72.5%          58.5%      154.4%      72.5%                  90.5%         88.2%         ฿1.66bn

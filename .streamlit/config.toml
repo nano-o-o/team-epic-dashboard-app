@@ -1,0 +1,30 @@
+[client]
+# Hide the developer-only toolbar items (Deploy, Rerun, Clear cache) -- they
+# mean nothing to a Strategy or Purchasing user and cluttered the page corner.
+toolbarMode = "viewer"
+
+[theme]
+base = "light"
+primaryColor = "#17233F"
+# Light grey page with white cards on it -- the redesign mockup's #EEEEEE.
+backgroundColor = "#F4F4F1"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#16181D"
+# IBM Plex Sans from Google Fonts; without a network connection Streamlit falls back
+# to its default sans-serif, so the app still renders, just in another face.
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+# Input fields are filled with secondaryBackgroundColor (white), and they sit
+# inside white cards -- without a visible border every text / number input,
+# selectbox and multiselect on Build Forecast disappears into its card.
+showWidgetBorder = true
+# Control borders at the design system's --border-control; tables keep the hairline.
+borderColor = "#737884"
+dataframeBorderColor = "#DEDCD5"
+dataframeHeaderBackgroundColor = "#EBEAE5"
+baseRadius = "8px"
+buttonRadius = "8px"
+showSidebarBorder = false
+
+[theme.sidebar]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#FFFFFF"

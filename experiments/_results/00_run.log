@@ -1,0 +1,28 @@
+18:11:34 built prepared in 8s
+18:11:34 prepared: 5,693 items, 273,264 item-months
+18:12:07 built baseline_FY2024 in 32s
+
+=== FY2024 (train [2021, 2022, 2023], sigma from FY2023) — 68,316 item-months ===
+  WAPE item-month      1m      71.8%   12m      73.4%
+  Bias                 1m     -12.3%   12m     -12.9%
+  WAPE Cat1-month      1m      27.9%   12m      29.0%
+  WAPE item-quarter    1m      53.7%   12m      59.0%
+  WAPE item-year       1m      36.1%   12m      46.3%
+  Total units          1m    164,178   12m    163,008
+  WAPE Sparse          1m     129.3%   12m     121.1%
+  WAPE Medium          1m     119.4%   12m     121.7%
+  WAPE Dense           1m      55.5%   12m      58.7%
+  95% plan: fill 83.0% on ฿1.32bn; flat rule at that budget 81.4%; 1.5-month rule 75.9% on ฿782M; items scored 3,219
+18:12:28 built baseline_FY2023 in 19s
+
+=== FY2023 (train [2021, 2022], sigma from FY2023 in-sample (no earlier year)) — 68,316 item-months ===
+  WAPE item-month      1m     102.4%   12m     127.1%
+  Bias                 1m      36.7%   12m      69.5%
+  WAPE Cat1-month      1m      54.9%   12m      86.0%
+  WAPE item-quarter    1m      81.5%   12m     111.5%
+  WAPE item-year       1m      64.9%   12m      98.4%
+  Total units          1m    206,191   12m    255,623
+  WAPE Sparse          1m     147.0%   12m     127.0%
+  WAPE Medium          1m     158.3%   12m     156.2%
+  WAPE Dense           1m      88.7%   12m     123.5%
+  95% plan: fill 99.4% on ฿2.00bn; flat rule at that budget 86.4%; 1.5-month rule 84.9% on ฿1.55bn; items scored 3,061

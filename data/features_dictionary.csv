@@ -1,0 +1,22 @@
+column,description,leakage_note
+Item Internal ID,(identifier / passthrough),n/a
+FiscalYear,(identifier / passthrough),n/a
+FiscalMonth,(identifier / passthrough),n/a
+Units,Target: units sold that fiscal month (0 where the item had no order).,target
+Revenue,"Base Price x Quantity, summed for the month.",target-derived
+Category1,"Primary product family, from the item master.",static attribute
+Category2,"Sub-category, from the item master.",static attribute
+ProductionStatus,"Continue / Discontinue, from the item master. Used for obsolescence flags, not as a model feature.",static attribute
+ListPrice,"Official list price (฿), from the item master.",static attribute
+Item Code,(identifier / passthrough),n/a
+lag_1,Units 1 month ago.,backward-only (shift 1)
+lag_2,Units 2 months ago.,backward-only
+lag_3,Units 3 months ago.,backward-only
+lag_12,Units the same month last year (yearly seasonality).,backward-only
+roll_mean_3,Mean units over the trailing 3 months.,backward-only (shift 1 then roll)
+roll_mean_6,Mean units over the trailing 6 months.,backward-only
+avg_monthly_units,Average units per month over all of this item's prior months (zero months included).,"backward-only (shift 1, then an expanding mean within the item)"
+months_since_last_sale,"Months since this item last had Units > 0, using prior months only.",backward-only
+month_sin,sin(2 pi * calendar month / 12) -- cyclical calendar encoding.,deterministic
+month_cos,cos(2 pi * calendar month / 12).,deterministic
+distinct_customers_trailing_12m,Count of distinct customers who bought this item in the trailing 12 months.,"backward-only (trailing window, current month excluded)"

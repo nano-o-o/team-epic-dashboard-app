@@ -1,0 +1,9 @@
+streamlit>=1.63
+pandas>=3.0
+scikit-learn>=1.9
+lightgbm>=4.7
+xgboost>=3.4
+statsmodels>=0.15
+scipy>=1.18
+pyarrow>=24
+openpyxl>=3.1

@@ -1,0 +1,86 @@
+18:14:57 FY2024: baseline 95% budget ฿1.32bn; tiers 3
+18:15:00   FY2024 Baseline (app, 12 months ahead): WAPE 73.4%, fill @ budget 83.0%
+18:15:01   FY2024 12m mean on Sparse: WAPE 78.0%, fill @ budget 82.8%
+18:15:01   FY2024 12m mean on Sparse + Medium: WAPE 77.8%, fill @ budget 82.3%
+18:15:02   FY2024 12m mean on ALL items: WAPE 74.4%, fill @ budget 81.4%
+18:15:02   FY2024 24m mean on Sparse: WAPE 78.5%, fill @ budget 83.0%
+18:15:03   FY2024 24m mean on Sparse + Medium: WAPE 79.6%, fill @ budget 82.8%
+18:15:03   FY2024 24m mean on ALL items: WAPE 83.8%, fill @ budget 83.0%
+18:15:04   FY2024 Croston SBA (monthly) on Sparse: WAPE 102.6%, fill @ budget 83.0%
+18:15:04   FY2024 Croston SBA (monthly) on Sparse + Medium: WAPE 104.2%, fill @ budget 82.7%
+18:15:05   FY2024 Croston SBA (monthly) on ALL items: WAPE 102.7%, fill @ budget 82.8%
+18:15:06   FY2024 ADIDA quarterly SBA on Sparse: WAPE 84.2%, fill @ budget 83.1%
+18:15:06   FY2024 ADIDA quarterly SBA on Sparse + Medium: WAPE 85.9%, fill @ budget 82.9%
+18:15:07   FY2024 ADIDA quarterly SBA on ALL items: WAPE 91.1%, fill @ budget 82.5%
+18:15:07   FY2024 ADIDA annual SES on Sparse: WAPE 82.3%, fill @ budget 83.8%
+18:15:08   FY2024 ADIDA annual SES on Sparse + Medium: WAPE 84.5%, fill @ budget 83.6%
+18:15:08   FY2024 ADIDA annual SES on ALL items: WAPE 95.0%, fill @ budget 83.1%
+18:15:09   FY2024 ML annual, flattened on Sparse: WAPE 73.4%, fill @ budget 83.0%
+18:15:09   FY2024 ML annual, flattened on Sparse + Medium: WAPE 73.3%, fill @ budget 83.0%
+18:15:10   FY2024 ML annual, flattened on ALL items: WAPE 72.1%, fill @ budget 83.0%
+18:15:12 FY2023: baseline 95% budget ฿2.24bn; tiers 3
+18:15:15   FY2023 Baseline (app, 12 months ahead): WAPE 127.1%, fill @ budget 90.3%
+18:15:15   FY2023 12m mean on Sparse: WAPE 133.8%, fill @ budget 89.5%
+18:15:16   FY2023 12m mean on Sparse + Medium: WAPE 135.4%, fill @ budget 89.2%
+18:15:16   FY2023 12m mean on ALL items: WAPE 130.5%, fill @ budget 88.9%
+18:15:17   FY2023 24m mean on Sparse: WAPE 138.7%, fill @ budget 90.4%
+18:15:18   FY2023 24m mean on Sparse + Medium: WAPE 139.8%, fill @ budget 90.2%
+18:15:18   FY2023 24m mean on ALL items: WAPE 133.1%, fill @ budget 90.1%
+18:15:19   FY2023 Croston SBA (monthly) on Sparse: WAPE 163.2%, fill @ budget 90.4%
+18:15:19   FY2023 Croston SBA (monthly) on Sparse + Medium: WAPE 164.9%, fill @ budget 90.2%
+18:15:20   FY2023 Croston SBA (monthly) on ALL items: WAPE 155.4%, fill @ budget 90.1%
+18:15:20   FY2023 ADIDA quarterly SBA on Sparse: WAPE 141.3%, fill @ budget 90.3%
+18:15:21   FY2023 ADIDA quarterly SBA on Sparse + Medium: WAPE 141.8%, fill @ budget 90.1%
+18:15:21   FY2023 ADIDA quarterly SBA on ALL items: WAPE 123.8%, fill @ budget 90.1%
+18:15:22   FY2023 ADIDA annual SES on Sparse: WAPE 140.7%, fill @ budget 90.4%
+18:15:23   FY2023 ADIDA annual SES on Sparse + Medium: WAPE 141.8%, fill @ budget 90.3%
+18:15:23   FY2023 ADIDA annual SES on ALL items: WAPE 134.9%, fill @ budget 90.1%
+18:15:24   FY2023 ML annual, flattened on Sparse: WAPE 127.1%, fill @ budget 90.3%
+18:15:24   FY2023 ML annual, flattened on Sparse + Medium: WAPE 127.0%, fill @ budget 90.3%
+18:15:25   FY2023 ML annual, flattened on ALL items: WAPE 126.1%, fill @ budget 90.3%
+
+=== FY2024 ===
+                                         WAPE item-month   Bias WAPE item-quarter WAPE item-year WAPE Sparse WAPE Medium WAPE Dense Fill @ baseline budget 95% plan fill 95% plan budget
+Variant                                                                                                                                                                                 
+Baseline (app, 12 months ahead)                    73.4% -12.9%             59.0%          46.3%      121.1%      121.7%      58.7%                  83.0%         83.0%         ฿1.32bn
+12m mean on Sparse                                 78.0%  -7.3%             62.9%          48.5%      156.3%      121.7%      58.7%                  82.8%         82.9%         ฿1.33bn
+12m mean on Sparse + Medium                        77.8%  -8.4%             63.1%          49.1%      156.3%      119.9%      58.7%                  82.3%         82.3%         ฿1.31bn
+12m mean on ALL items                              74.4% -19.4%             60.3%          49.4%      156.3%      119.9%      54.2%                  81.4%         79.3%         ฿1.10bn
+24m mean on Sparse                                 78.5%  -7.0%             63.6%          48.6%      160.6%      121.7%      58.7%                  83.0%         83.2%         ฿1.35bn
+24m mean on Sparse + Medium                        79.6%  -5.6%             64.7%          49.8%      160.6%      131.9%      58.7%                  82.8%         83.2%         ฿1.37bn
+24m mean on ALL items                              83.8%  10.4%             68.0%          54.1%      160.6%      131.9%      64.2%                  83.0%         83.5%         ฿1.41bn
+Croston SBA (monthly) on Sparse                   102.6%  17.7%             86.8%          71.7%      346.8%      121.7%      58.7%                  83.0%         84.0%         ฿1.44bn
+Croston SBA (monthly) on Sparse + Medium          104.2%  19.6%             88.4%          73.5%      346.8%      137.1%      58.7%                  82.7%         83.9%         ฿1.47bn
+Croston SBA (monthly) on ALL items                102.7%  22.3%             85.7%          71.8%      346.8%      137.1%      56.7%                  82.8%         83.3%         ฿1.38bn
+ADIDA quarterly SBA on Sparse                      84.2%  -0.9%             68.5%          53.8%      204.3%      121.7%      58.7%                  83.1%         83.9%         ฿1.42bn
+ADIDA quarterly SBA on Sparse + Medium             85.9%   0.9%             70.3%          55.7%      204.3%      138.4%      58.7%                  82.9%         83.8%         ฿1.43bn
+ADIDA quarterly SBA on ALL items                   91.1%  14.0%             74.7%          61.0%      204.3%      138.4%      65.4%                  82.5%         83.5%         ฿1.46bn
+ADIDA annual SES on Sparse                         82.3%  -2.7%             66.2%          50.3%      190.1%      121.7%      58.7%                  83.8%         84.0%         ฿1.35bn
+ADIDA annual SES on Sparse + Medium                84.5%  -0.1%             68.3%          52.5%      190.1%      141.6%      58.7%                  83.6%         84.1%         ฿1.37bn
+ADIDA annual SES on ALL items                      95.0%  24.4%             78.2%          63.5%      190.1%      141.6%      72.4%                  83.1%         84.6%         ฿1.53bn
+ML annual, flattened on Sparse                     73.4% -12.9%             59.0%          46.3%      121.0%      121.7%      58.7%                  83.0%         83.0%         ฿1.32bn
+ML annual, flattened on Sparse + Medium            73.3% -12.9%             59.0%          46.3%      121.0%      121.0%      58.7%                  83.0%         83.0%         ฿1.32bn
+ML annual, flattened on ALL items                  72.1% -12.9%             57.3%          46.3%      121.0%      121.0%      57.0%                  83.0%         83.0%         ฿1.32bn
+
+=== FY2023 ===
+                                         WAPE item-month   Bias WAPE item-quarter WAPE item-year WAPE Sparse WAPE Medium WAPE Dense Fill @ baseline budget 95% plan fill 95% plan budget
+Variant                                                                                                                                                                                 
+Baseline (app, 12 months ahead)                   127.1%  69.5%            111.5%          98.4%      127.0%      156.2%     123.5%                  90.3%         90.3%         ฿2.24bn
+12m mean on Sparse                                133.8%  77.0%            117.3%         103.2%      182.9%      156.2%     123.5%                  89.5%         89.5%         ฿2.25bn
+12m mean on Sparse + Medium                       135.4%  78.6%            118.9%         105.2%      182.9%      172.9%     123.5%                  89.2%         89.2%         ฿2.27bn
+12m mean on ALL items                             130.5%  74.0%            113.4%         101.7%      182.9%      172.9%     117.4%                  88.9%         88.9%         ฿2.22bn
+24m mean on Sparse                                138.7%  82.2%            121.5%         107.1%      224.3%      156.2%     123.5%                  90.4%         90.4%         ฿2.26bn
+24m mean on Sparse + Medium                       139.8%  83.4%            122.4%         108.3%      224.3%      167.3%     123.5%                  90.2%         90.2%         ฿2.25bn
+24m mean on ALL items                             133.1%  76.6%            114.2%         102.0%      224.3%      167.3%     115.0%                  90.1%         90.1%         ฿2.22bn
+Croston SBA (monthly) on Sparse                   163.2% 107.2%            146.1%         132.1%      430.2%      156.2%     123.5%                  90.4%         90.6%         ฿2.32bn
+Croston SBA (monthly) on Sparse + Medium          164.9% 108.9%            147.5%         134.0%      430.2%      173.5%     123.5%                  90.2%         90.4%         ฿2.33bn
+Croston SBA (monthly) on ALL items                155.4%  98.0%            136.6%         124.4%      430.2%      173.5%     111.4%                  90.1%         90.1%         ฿2.23bn
+ADIDA quarterly SBA on Sparse                     141.3%  85.1%            124.3%         110.2%      246.0%      156.2%     123.5%                  90.3%         90.5%         ฿2.30bn
+ADIDA quarterly SBA on Sparse + Medium            141.8%  85.1%            124.7%         111.1%      246.0%      161.6%     123.5%                  90.1%         90.2%         ฿2.27bn
+ADIDA quarterly SBA on ALL items                  123.8%  61.2%            104.1%          91.0%      246.0%      161.6%     100.6%                  90.1%         89.7%         ฿2.09bn
+ADIDA annual SES on Sparse                        140.7%  84.3%            123.7%         109.6%      241.3%      156.2%     123.5%                  90.4%         90.4%         ฿2.26bn
+ADIDA annual SES on Sparse + Medium               141.8%  85.3%            124.5%         110.8%      241.3%      167.0%     123.5%                  90.3%         90.3%         ฿2.24bn
+ADIDA annual SES on ALL items                     134.9%  77.7%            115.9%         104.1%      241.3%      167.0%     114.8%                  90.1%         90.1%         ฿2.22bn
+ML annual, flattened on Sparse                    127.1%  69.5%            111.5%          98.4%      126.8%      156.2%     123.5%                  90.3%         90.3%         ฿2.24bn
+ML annual, flattened on Sparse + Medium           127.0%  69.5%            111.3%          98.4%      126.8%      155.8%     123.5%                  90.3%         90.3%         ฿2.24bn
+ML annual, flattened on ALL items                 126.1%  69.5%            109.8%          98.4%      126.8%      155.8%     122.3%                  90.3%         90.3%         ฿2.24bn
